@@ -1,0 +1,12 @@
+# Local names: generic column name (key) -> column name in your data export (value); optional raw_file = local file
+# name of the raw workbook.
+# Copy this file to columns.local.yaml (listed in .gitignore; never commit or share it) and replace each value with the
+# column name used in your export. The synthetic example data use the generic names, so here every name maps to itself.
+# All five free-text fields are searched (in memory) for blood-pressure and ejection-fraction values.
+id_column: id_column                              # record identifier (row-order check only)
+text_history: text_history                        # free text: history (repeat-visit proxy, follow-up mentions)
+text_past_history: text_past_history              # free text: past history (repeat-visit proxy)
+text_physical_treatment: text_physical_treatment  # free text: notes
+text_treatment: text_treatment                    # free text: treatment notes
+text_diagnosis: text_diagnosis                    # free text: diagnosis (label-noise measures, diagnosis-family flags)
+# raw_file: <file name of the raw workbook in the data folder>   # optional; default: paths.raw_xlsx (raw_export.xlsx)

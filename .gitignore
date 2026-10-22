@@ -1,0 +1,15 @@
+# Study data and the local column-name mapping: never commit
+data/
+columns.local.yaml
+config.local.yaml
+
+# Outputs, results archives, logs, checkpoints
+out*/
+*.zip
+*.log
+checkpoints/
+
+# Python caches and local environments
+__pycache__/
+*.pyc
+.venv/

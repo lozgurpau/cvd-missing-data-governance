@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article in preferred-citation."
+type: software
+title: "Missing-data governance in routine hospital records: analysis code"
+version: "1.0.0"
+date-released: "2026-10-21"
+license: MIT
+repository-code: "https://github.com/lozgurpau/cvd-missing-data-governance"
+authors:
+  - family-names: "Kara"
+    given-names: "Gönül"
+    orcid: "https://orcid.org/0009-0002-0524-244X"
+  - family-names: "Özgür Polat"
+    given-names: "Leyla"
+    orcid: "https://orcid.org/0000-0002-5143-359X"
+keywords:
+  - missing data
+  - electronic health records
+  - machine learning
+  - cardiovascular disease
+preferred-citation:
+  type: article
+  title: "Missing-Data Governance in Real-World Cardiovascular Case Identification from Routine Hospital Records: Effects on Machine-Learning Performance and Interpretability"
+  authors:
+    - family-names: "Kara"
+      given-names: "Gönül"
+      orcid: "https://orcid.org/0009-0002-0524-244X"
+    - family-names: "Özgür Polat"
+      given-names: "Leyla"
+      orcid: "https://orcid.org/0000-0002-5143-359X"
+  journal: "BMC Medical Informatics and Decision Making"
+  # year, volume, article number (start) and doi will be added on publication

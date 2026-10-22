@@ -1,0 +1,21 @@
+name: cvdrev
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn=1.9.1
+  - lightgbm=4.7.0
+  - xgboost=3.4.2
+  - catboost=1.2.7
+  - shap=0.48.0
+  - statsmodels
+  - openpyxl
+  - pyyaml
+  - joblib>=1.4
+  - matplotlib
+  - seaborn
+  - pyarrow
